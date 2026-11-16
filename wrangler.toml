@@ -1,0 +1,17 @@
+name = "picoshare"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "picoshare_db"
+database_id = "2941a3ee-62bd-426d-a969-dce8e537ade4"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "picoshare-files"
+
+[[kv_namespaces]]
+binding = "CLIPBOARD"
+id = "69820e2244ba4104bbb5e72d2e40e8d8"
