@@ -6,10 +6,10 @@ assets = { directory = "./public", binding = "ASSETS" }
 
 [vars]
 ENABLE_SAAS = "false"
-# 你的真实网址
 BETTER_AUTH_URL = "https://picosharets.colourfulfanta.workers.dev"
 WAFFO_ENV = "test"
 WAFFO_CURRENCY = "USD"
+PS_SHARED_SECRET = "123456"
 
 [[d1_databases]]
 binding = "DB"
